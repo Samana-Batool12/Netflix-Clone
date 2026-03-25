@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+    color:white;
+    /* font-family:  Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;; */
+    font-family: "poppins";
+}
+body{
+    background-color: black;
+}
+.hero{
+    width:100%;
+    height:80vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid rgb(80, 80, 80);
+    text-align: center;
+
+} 
+.langbtn{
+    background-color: transparent;
+    padding:2px;
+    outline: none;
+    border:1px solid white;
+    border-radius: 4px;
+    width:55px
+}
+
+.signinbtn{
+    background-color: red;
+    padding:2px;
+    outline:none;
+    border:1px solid white;
+    width:55px;
+    border-radius: 4px;
+}
+
+.back{
+    width:100%;
+    height: 80vh;
+    background-color: black;
+    opacity:0.6;
+    position: absolute;
+    top:0
+    
+} 
+.nav{
+    padding-top: 5px;
+    background-color: black;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    position:relative;
+    z-index: 1;
+    
+
+}
+.nav .logo{
+    width:150px;
+    height:40px;
+    background-image: url(logo.svg);
+    background-size: cover;
+}
+.herocontent{
+    height:calc(80vh - 50px);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+input{
+    height:32px;
+    width:250px;
+    border-radius: 4px;
+    padding-left: 8px;
+    background-color:rgba(0, 0, 0, 0.7 );
+    outline: none;
+    border: 1px solid grey;
+    backdrop-filter: blur(4px);
+    padding-bottom:3px;
+}
+.herocontentbtn{
+    background-color: red;
+    width:150px;
+    font-size: 17px;
+    height:35px;
+    border-radius: 4px;
+    padding:2px 0px 3px;
+    outline: none;
+    border:1px solid grey
+}
+.email{
+    display: inline-block;
+}
+
+.margin{
+    margin:8px 0 8px 0
+
+}
+.heading{
+    font-weight: 600;
+    font-size: 35px;
+    /* font-family:  Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;; */
+}
+.p1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.p2{
+    font-size:20px;
+    font-family:  Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+}
+
+.content img{
+    width:400px;
+    height:290px;
+    position: relative;
+    right:5px;
+    background-color: transparent;
+    
+}
+.text{
+    width:570px;
+    position:relative;
+    left:5px;
+    z-index: 1;
+
+}
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding:30px 10px 30px 10px;
+    border-bottom: 5px solid rgb(80, 80, 80);
+}
+video{
+    position:absolute;
+    width: 360px;
+    height:157px;
+    left:740px;
+    top:1290px
+}
+
+.divs{
+    width:800px;
+    height:50px;
+    background-color: rgba(80, 80, 80, 0.628);
+    margin:5px 0 5px 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    cursor:pointer
+}
+.questionsection{
+    width:850px;
+    margin: auto;
+    margin-top:25px;
+
+
+}
+.faq{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.divs:hover{
+    background-color:rgba(255, 255, 255, 0.484);
+}
+.secsignup{
+    width:850px;
+    text-align: center;
+    margin:30px 0px 30px
+
+    
+}
+.secsignup input,button{
+    margin-top:10px;
+}
+.secdiv{
+    border-bottom: 5px solid rgb(80, 80, 80);
+
+}
+
+/* Another way to brinf faq section to center using flexbox */
+/* .questionsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+    color:rgb(185, 184, 184);
+
+}
+footer p{
+    margin:20px;
+    padding-right:40px;
+}
+.footersection{
+    padding:30px 10px 30px 10px;
+}
